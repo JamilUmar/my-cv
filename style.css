@@ -66,3 +66,23 @@ ul{
 ul li{
   text-align: start;
 }
+
+/* tablet view */
+@media screen and (max-width: 768px){
+  main {
+    margin: 5% auto;
+  }
+  section .content {
+    font-size: 1.1rem;
+  }
+}
+
+/* phone view */
+@media screen and (max-width: 360px){
+  main {
+    margin: 0;
+  }
+  section .content {
+    font-size: 1rem;
+  }
+}
